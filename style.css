@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+body {
+  background: rgb(189, 230, 255)
+}
+
+main {
+  background: white;
+  padding: 16px;
+  margin: 48px auto 0;
+  width: 380px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #999;
+}
+
+p {
+  margin: 0;
+  padding: 12px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 24px;
+  font-family: "Courier New";
+  text-align: center;
+}
+
+button {
+  all: unset;
+  background: #08c;
+  padding: 12px 0; 
+  margin-top: 16px;
+  width: 100%;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .6;
+}
+
+button:active {
+  opacity: .4;
+}
+
+fieldset {
+  padding: 16px;
+  margin-top: 16px;
+  border: 1px dashed #aaa;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+legend {
+  padding: 0 8px;
+}
+
+#password-length {
+  width: 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+@media (max-width: 440px) {
+
+  main {
+    width: 90%;
+  }
+}
